@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Blog By HF</string>
+    <string name="title_home">新闻</string>
+    <string name="title_dashboard">发表</string>
+    <string name="title_notifications">个人</string>
+</resources>

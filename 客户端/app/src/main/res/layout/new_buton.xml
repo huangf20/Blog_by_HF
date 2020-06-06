@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/serach_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FCFCFC"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/edit_bk"
+            android:hint="搜索新闻博客"
+            android:maxLength="40" />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="45dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/search_icon"/>
+
+    </LinearLayout>
+
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+
+
+
+
+        <ListView
+            android:id="@+id/article_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/serach_layout"
+            android:layout_weight="1" />
+
+
+</LinearLayout>
